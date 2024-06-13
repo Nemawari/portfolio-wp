@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+/****************  
+    全体共通
+*****************/
+/* body *,
+#work *,
+#profile * ,
+#about *,
+#skill *,
+#like *,
+footer *{
+    outline:1px solid red;
+} */
+.line{
+    background: none;
+}
+
+#like .sec-t::after,
+#profile .sec-t::after{
+    display: none;
+}
+
+
+/******** about *********/
+
+.t-title{
+    width: 1206px;
+    margin: 0 auto;
+}
+
+.t-title h2{
+    font-size: 3.2rem;
+    margin-bottom: 31px;
+}
+.t-title p{
+    font-size: 2.0rem;
+    line-height: 1.6;
+    margin-bottom: 152px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1206px;
+    width: 100%;
+    margin: 0 auto;
+}
+.content{
+    text-align: center;
+}
+.w-text{
+    text-align: initial;
+}
+.w-text h3{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 46px;
+}
+.w-text p{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    width: 306px;
+}
+.content img{
+    width: 195px;
+    margin-bottom: 70px;
+}
+.content2 img{
+    /* width: 184px; */
+    margin-bottom: 60px;
+}
+.content3 img{
+    width: 180px;
+    margin-bottom: 54px;
+}
+
+/* CAREER */
+#career{
+    position: relative;
+    background-color: #fff;
+    max-width: 1206px;
+    width: 100%;
+    margin: 0 auto 212px;
+    padding: 50px 100px 70px;
+}
+.sec-t2::after{
+    top: 115px;
+}
+/* profile */
+#profile .sec-t h3{
+    margin-bottom: 58px;
+    
+}
+#profile .posi{
+    top: -50px;
+    right: 50px;
+}
+
+/* career */
+.btn-ca2{
+    left: 75px;
+}
+
+/* like */
+#like{
+    margin-bottom: 146px;
+}
+
+#like .sec-t h3{
+    margin-bottom: 87px;
+}
+.like-b{
+    display: flex;
+    width: 1005px;
+    margin: 0 auto;
+}
+
+.like-img h3{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+}
+.like-img{
+    position: relative;
+    width: 390px;
+    margin: 0 auto;
+}
+.like-img .img1{
+    position: absolute;
+    width: 256px;
+    margin: 0 auto;
+    left: 134px;
+    z-index: 0;
+}
+.like-img .img2{
+    position: absolute;
+    top: 120px;
+    width: 256px;
+    margin: 0 auto;
+    z-index: 10;
+}
+.like-t{
+    position: absolute;
+    top: 326px;
+    left: 0;
+}
+.like-img img{
+    margin-bottom: 35px;
+}
+.like-img img,.like-img p{
+    width: 390px;
+}
+.like-img p{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+/****************  
+    レスポンシブ
+*****************/
+@media screen and (max-width: 1100px) {
+    /* about　デザインについてflex-wrap  */
+    .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+    /****************  
+        about
+    *****************/
+    #about{
+        max-width: 326px;
+    }
+    .sec-t,.t-title{
+        margin: 0 auto;
+    }
+    .t-title{
+        width: 326px;
+    }
+    .t-title h2{
+        font-size: 2.0rem;
+    }
+    .t-title p{
+        font-size: 1.3rem;
+        margin-bottom: 38px;
+    }
+
+    .wrapper{
+        display: block;
+        width: 326px;
+    }
+    .content{
+        margin-bottom: 58px;
+    }
+    .content img{
+        margin-bottom: 8px;
+    }
+    .content .w-text{
+        margin-bottom: 72px;
+        width: 326px;
+    }
+    .content .w-text h3{
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+    .w-text p{
+        width: 326px;
+        font-size: 1.3rem;
+        line-height: 1.9;
+        margin: 0 auto;
+    }
+    /****************  
+        career
+    *****************/
+    #career{
+        padding: 44px 35px;
+        margin-bottom: 150px;
+    }
+    /****************  
+        profile
+    *****************/
+    #profile .posi{
+        top: -280px;
+        right: 50px;
+    }
+    .prf-content{
+        height: 785px;
+    }
+    /****************  
+        like
+    *****************/
+    #like{
+        width: 326px;
+        margin: 0 auto 146px;
+    }
+    .like-b{
+        width: 326px;
+    }
+    #like .sec-t h3{
+        margin-bottom: 50px;
+    }
+    .like-t{
+        top: 290px;
+    }
+    .like-img .img1,.like-img .img2{
+        width: 194px;
+    }
+    .like-img .img1{
+        top: 30px;
+        left: 132px;
+    }
+    .like-img img,.like-img p{
+        width: 326px;
+    }
+    .like-img2{
+        margin-top: 600px;
+    }
+    .like-img p{
+        line-height: 1.9;
+    }
+
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOHEI NEMAWARI PORTFOLIO SITE</title>
+
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=M+PLUS+Rounded+1c:wght@100;300&family=Open+Sans:wght@700&family=Piazzolla:wght@700&display=swap" rel="stylesheet">
+    <!-- ファビコン -->
+    <link rel="icon" href="images/favicon/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon/favicon.png" sizes="180x180">
+    <!-- css -->
+    <link rel="stylesheet" href="stylesheets/destyle.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesheets/style1.css">
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous">
+    </script>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/index.js"></script>
+    <!-- Google tag (gtag.js)　アナリティクス -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7R6T3X7DXK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7R6T3X7DXK');
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div id="header-block">
+            <div class="header-menu">
+                <ul class="hm-1">
+                    <li><a href="index.html">TOP</a></li>
+                    <li><a href="lineup.html">WORKS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="carrer.html">CAREER</a></li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div id="header-block-r">
+            <span class="nav_toggle">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">TOP<span class="name-r">トップページ</span></a></li>
+                    <li><a href="lineup.html">WORKS<span class="name-r">制作実績</span></a></li>
+                    <li><a href="about.html">ABOUT<span class="name-r">自分について</span></a></li>
+                    <li><a href="carrer.html">CAREER<span class="name-r">学習歴</span></a></li>
+                    <li><a href="contact.html">CONTACT<span class="name-r">お問い合わせ</span></a></li>
+                </ul>
+                <ul class="sns-r">
+                    <li><a href="https://www.instagram.com/dp_uw1214x/" target="_blank"><img src="images/profile-img/insta.png" alt="insta"></a></li>
+                    <li><a href="https://twitter.com/web_kouhei" target="_blank"><img src="images/profile-img/Twitter.png" alt="Twitter"></a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <section id="mainvisual">
+            <div class="main-img">
+                <img class="top-img" src="/images/profile-img/IMG_0585.JPG" alt="メイン写真">
+                <div class="site-title">
+                    <h2 class="name">KOHEI NEMAWARI</h2>
+                    <h2 class="site-t">PORTFOLIO SITE</h2>
+                </div>
+            </div>
+            <div class="main-img-r">
+                <img class="top-img" src="/images/profile-img/profile-r.png" alt="メイン写真">
+                    <h2 class="name">KOHEI NEMAWARI</h2>
+                    <h2 class="site-t">PORTFOLIO SITE</h2>
+            </div>
+            <div class="sns">
+                <h6>SNS</h6>
+                <ul class="sns-black">
+                    <li><a href="https://twitter.com/web_kouhei" target="_blank"><img src="/images/profile-img/Twitter.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/dp_uw1214x/" target="_blank"><img src="/images/profile-img/insta.png" alt="insta"></a></li>
+                </ul>
+                <ul class="sns-white">
+                    <li><a href="https://twitter.com/web_kouhei" target="_blank"><img src="images/profile-img/Twitter-f.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/dp_uw1214x/" target="_blank"><img src="images/profile-img/insta-f.png" alt="insta"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="sec-t sec-t-anime">
+                <h3><span class="line">WORKS</span></h3>
+            </div>
+            <div class="works-content">
+                <a href="../works/works7.html">
+                    <article class="original">
+                        <div class="content">
+                            <div class="original-img">
+                                <img src="images/work-img/portfolio-img/protfolio-pc.png" alt="PCデザイン">
+                            </div>
+                            <div class="original-img2 pt1 pt3">
+                                <img src="images/work-img/portfolio-img/protfolio-r-m.png" alt="レスポンシブデザイン">
+                            </div>
+                        </div>
+                        <p class="title">個人PORTFOLIO SITE</p>
+                    </article>
+                </a>
+                <a href="../works/works.html">
+                    <article class="original">
+                        <div class="content">
+                            <div class="original-img">
+                                <img src="images/work-img/original1.png" alt="PCデザイン">
+                            </div>
+                            <div class="original-img2 pt1">
+                                <img src="images/work-img/original1-r.png" alt="レスポンシブデザイン">
+                            </div>
+                        </div>
+                        <p class="title">【架空】美容企業サイト　Graceful Beauty Group</p>
+                    </article>
+                </a>
+            </div>
+            <div class="button">
+                <a href="lineup.html" class="btn btn-green"><span class="btn-t">VIEW MORE</span></a>
+                <div class="line-01"></div>
+                <div class="line-02"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="sec-t">
+                <h3><span class="line">ABOUT</span></h3>
+            </div>
+            <div class="prf-content">
+                <div class="prf">
+                    <h2>根廻　康平<span class="prf-en"><span class="myou">NEMAWARI</span> <span class="mei">KOHEI</span></span></h2>
+                </div>
+                <div class="prf-flex">
+                    <div class="text1">
+                        <p class="p-1">1994年生まれ。宮城県大崎市出身。仙台コミュニケーションアート専門学校 調理師科卒業後、調理師として3年間勤める。その間、趣味の写真撮影からAdobeソフトを触れ始め、次第に画像加工を行うようになり2022年からweb制作の業界に興味が湧き学習を開始。<br>
+                        <p class="p-2">過去の職歴にて調理師や製造業での経験から細かい作業を得意とし、デザイン制作の面でも細かい作成・修正作業で活かせています。</p>
+                        <p class="p-3">前職にてPHP・JavaScriptを、メンターを使用してのHTML/CSS・jQuery中心としたコーディング学習・Photoshopを使用してのバナー作成・XDを使用してワイヤーフレームからのデザイン作成について学ぶ。</p>
+                    </div>
+                    <div class="posi">
+                        <div class="prf-content2">
+                            <img src="images/profile-img/IMG_0582.JPG" alt="プロフィール写真">
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="about.html" class="btn btn-green btn-width"><span class="btn-t2">VIEW PROFILE</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="sec-t">
+                <h3><span class="line">SKILL</span></h3>
+            </div>
+            <div class="skill-flex">
+                <div class="skill-content">
+                    <h3>Design</h3>
+                        <img src="images/profile-img/Online_articles.png" alt="デザイン">
+                        <p class="block">
+                            お客様からのご要望をしっかりとヒアリングを行い、その想いを形にして行くため実現に向けて対象と同じ業界やテイストが近いデザイン・フォントを調べながら知識として次に活かせるようインプットを行い分析しつつ、デザイン制作を行っています。 
+                        </p>
+                    <div class="tool-block">
+                        <h3 class="tool tool2"><span class="line">使用言語・ツール</span></h3>
+                        <p class="code-block">Photoshop / Illustrator / Adobe XD / Figma</p>
+                    </div>
+                </div>
+                <div class="skill-content">
+                    <h3 class="skill-t">Coding</h3>
+                    <img src="images/profile-img/Programming.png" alt="コーディング">
+                    <p class="block block2">
+                        HTML/CSS/jQueryでページを作成することが可能です。適宜コメントを残し、後に改修・メンテナンスのしやすいコードを書くように心がけています。 WordPressについては、Cocoon・welcartを使用しての制作を実務で行なっていました。
+                    </p>
+                    <div class="tool-block">
+                        <h3 class="tool"><span class="line">使用言語・ツール</span></h3>
+                        <p class="code-block code-block2">HTML / CSS / jQuery / JavaScript / Laravel
+                            GitHub / Visual Studio Code / WordPress</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div id="sns-f">
+            <ul>
+                <li class=""><a href="https://www.instagram.com/dp_uw1214x/" target="_blank"><img class="icon-f" src="images/profile-img/insta-f.png" alt="インスタ"></a></li>
+                <li class=""><a href="https://twitter.com/web_kouhei" target="_blank"><img class="icon-f" src="images/profile-img/Twitter-f.png" alt="Twitter"></a></li>
+            </ul>
+        </div>
+        <div class="button footer-btn">
+            <a href="contact.html" class="btn btn-green btn-f1"><img class="icon-f-m" src="images/profile-img/maill.png" alt=""><span class="btn-f2">CONTACT</span></a>
+        </div>
+
+        <p class="copy">&copy; KOHEI NEMAWARI PORTFOLIO SITE</p>
+    </footer>
+
+</body>
+</html>

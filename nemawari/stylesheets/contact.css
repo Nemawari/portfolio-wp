@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* body *,
+#work *,
+#profile * ,
+#about *,
+#skill *,
+#like *,
+footer *{
+    outline:1px solid red;
+} */
+
+/* 見出しタイトル下線　打ち消し */
+.line{
+    background: none;
+}
+
+
+.sec-t h3{
+    margin-bottom: 160px;
+}
+.info-text{
+    margin-bottom: 120px;
+}
+.info-text p{
+    font-size: 1.8rem;
+}
+.mail-text{
+    width: 416px;
+    margin: 0 auto;
+    font-size: 3.6rem;
+    background: linear-gradient(transparent 70%, #AAC7AA 0%);
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+    #info{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .info-text p{
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    .mail-text{
+        width: 300px;
+        font-size: 2.6rem;
+    }
+}

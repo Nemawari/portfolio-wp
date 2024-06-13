@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.pc{
+    margin: 0 auto 5rem;
+}
+.wrapper2 .pc img{
+    max-width: 550px;
+    filter: drop-shadow(5px 5px 5px #E5E5E5);
+}
+.sec-t-meisi::after{
+    top:13%;
+}
+@media screen and (max-width:769px) {
+    .sec-t-pop::after{
+        top:12%;
+    }
+    .sec-t-meisi::after{
+        top:20%;
+    }
+}

@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.ps-wrap{
+    display: flex;
+}
+.ps-padding{
+    padding-left: 15px;
+}
+.works-wrap2,.works-wrap3{
+    margin-bottom: 15%;
+}
+/* .works-content-pop a{
+    padding-right: 100px;
+} */
+.works-wrap2 p,.works-wrap3 p{
+    top: 240px;
+}
+
+.ps-trace3-size img{
+    max-width: 300px;
+}
+.works-content-meisi{
+    padding-left: 40px;
+}
+.works-content-meisi a{
+    padding-right: 0;
+}
+.meisi-img img{
+    padding-top: 100px;
+    width: 350px;
+}
+@media screen and (max-width: 769px) {
+    .ps-wrap{
+        margin-bottom: 160px;
+    }
+    .ps-wrap img{
+        max-width: 166px;
+    }
+    .works-content-pop a{
+        padding-right: 0;
+    }
+    .works-wrap3{
+        margin-bottom: -50px;
+    }
+    .works-wrap2 p,.works-wrap3 p{
+        top: 185px;
+    }
+    .works-content-meisi{
+        padding-left: 0;
+        margin-bottom: 60px;
+    }
+    .works-content-meisi a{
+        padding-right: 0;
+    }
+    .rs-meisi{
+        top: 225px;
+    }
+    .meisi-img img{
+        padding-bottom: 30px;
+        padding-top: 70px;
+        width: 240px;
+    }
+}
