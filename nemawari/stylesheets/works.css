@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+/****************  
+    全体共通
+*****************/
+/* body *,
+#work *,
+#profile * ,
+#about *,
+#skill *,
+#like *,
+footer *{
+    outline:1px solid red;
+} */
+.line{
+    background: none;
+}
+
+/****************  
+    全体共通ここまで
+*****************/
+
+
+
+
+/* works  img*/
+#works{
+    max-width: 1206px;
+    margin: 0 auto;
+}
+.sec-t::after{
+    top: 10%;
+}
+.wrapper{
+    display: flex;
+    width: 1009px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper2{
+    max-width: 600px;
+}
+.pc img{
+    width: 603px;
+}
+.mobile img{
+    position: absolute;
+    top: 120px;
+    right: 140px;
+    width: 200px;
+}
+/* works  detail*/
+#detail{
+    margin: 0 auto 162px;
+}
+.detail-wrap{
+    background-color: #fff;
+    max-width: 1205px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 123px 179px;
+}
+.midashi{
+    margin-right: 50px;
+}
+.midashi h4{
+    width: 110px;
+}
+.color-box{
+    display: flex;
+}
+.color img{
+    max-width: 690px;
+    width: 100%;
+}
+.content{
+    display: flex;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 52px; 
+}
+.color-t{
+    margin-bottom:  30px;
+}
+/* 制作を通して部分 */
+.back-title{
+    position: relative;
+    font-size: 3.6rem;
+    margin-bottom: 66px;
+}
+.back-title span{
+    font-size: 1.5rem;
+}
+.back-title h3::before{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: -19%;
+    width: 111px;
+    border: 1px solid #2D2F2D;
+}
+
+.original-wrap{
+    display: flex;
+    width: 940px;
+    margin: 0 auto 150px;
+    filter:drop-shadow(5px 5px 5px #E5E5E5);
+}
+.ow-2{
+    max-width: 300px;
+}
+.original-img{
+    margin-right: 96px;
+}
+.original1 img{
+    width: 424px;
+}
+.original2 img,.original3 img{
+    width: 162px;
+}
+
+/* works3~5 PS模写 */
+.sec-t-ps::after{
+    top: 80px;
+}
+.ps-wrap{
+    max-width: 820px;
+    margin-bottom: 5rem;
+}
+.ps-left{
+    padding-left: 20px;
+}
+.ps-size img{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+/****************  
+    レスポンシブ
+*****************/
+@media screen and (max-width: 769px) {
+    .main{
+        max-width: 390px;
+    }
+    .sec-t h3{
+        margin-bottom: 55px;
+    }
+    .sec-t::after{
+        top: 20%;
+    }
+    
+    .wrapper{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .wrapper2{
+        max-width: 230px;
+    }
+    .pc img{
+        width: 235px;
+    }
+    .mobile img{
+        width: 80px;
+        top: 18%;
+        right: 10%;
+    }
+
+    /* バナー詳細 */
+    .ps-wrap{
+        padding-top: 20px;
+    }
+    .sec-t-detail::after{
+        top: 25%;
+    }
+    .ps-size img{
+        max-width: 163px;
+    }
+    /****** 制作過程部分 *******/
+    /****** 制作過程部分 共通 *******/
+    .color img,.original-img img,
+    .original-wrap,.content .content-text,
+    .detail-wrap{
+        max-width: 326px;
+        width: 100%;
+    }
+    #detail,#original{
+        max-width: 390px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #detail{
+        margin-bottom: 27px;
+    }
+    .detail-wrap{
+        padding: 27px 14px;
+        margin: 0 auto;
+    }
+    .content,.original-wrap{
+        display: block;
+    }
+    .content .midashi{
+        margin-bottom: 8px;
+    }
+    .back-title{
+        font-size: 2.0rem;
+        margin-bottom: 40px;
+    }
+    .back-title h3{
+        padding-left: 44px;
+    }
+    .back-title h3::before{
+        top: 45%;
+        left: 0;
+        width: 27px;
+        
+    }
+    .content .content-text{
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+    
+    /* 成果物 */
+    .original-wrap{
+        margin: 0 auto;
+    }
+    .original-img{
+        margin: 0 0 30px 0;
+    }
+}
